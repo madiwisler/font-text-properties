@@ -81,14 +81,20 @@ nav ul{
 
 nav a{
 	/* make these display as block level elements */
+	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
 	/* set the font color to #222 (--dk-gray) */
+	color: var(--dk-gray);
 	/* center align the text */
+	text-align: center;
 	/* remove the underline */
+	text-decoration: none;
 	/* make the font's size 1.2rem */
+	font-size: 1.2rem;
 	/* make the font bolder (600) */
+	font-weight: 600;
 }
 
 nav a:hover{
